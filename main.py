@@ -8,6 +8,11 @@ def main():
     ########################################
     """
     duplication = 0
+    
+    if(num1 == num2 and num1 == num3):
+        duplication = 3
+    elif(num1 == num2 or num1 == num3 or num2 == num3):
+        duplication = 2
 
     ########################################
     # Do not delete the return statement
